@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Upcider",
+  "name": "Upcider",
   "icons": [
     {
       "src": "favicon.ico",
@@ -16,10 +16,23 @@
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "icon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
     }
   ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "orientation": "any",
+  "description": "Welcome to our Job Portal Website, where we connect job seekers and employers to facilitate seamless and efficient job matching. Our platform is designed to simplify the job search process, making it easier for candidates to find their dream jobs and for companies to discover talented individuals who best fit their needs.",
+  "categories": ["Utilities", "Productivity", "Job Search", "Job Listings", "Employer", "Application", "Careers", "Interview"]
 }
