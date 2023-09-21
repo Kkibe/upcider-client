@@ -6,5 +6,58 @@
     align-items: flex-start;
     justify-content: space-between;
     padding: 2rem;
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+    position: fixed;
+    left: 0;
+    .logo{
+        letter-spacing: 2;
+    }
     
+    .menus{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        a{
+            display: flex;
+            align-items: center;
+            color: var(--whiteColor);
+            text-decoration: none;
+            &:hover{
+                color: var(--secondaryColor);
+            }
+        }
+
+        .ion-icon{
+            margin-right: 0.5rem;
+        }
+    }
+
+    .profile{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 1rem;
+        background-color: var(--whiteColor);
+        color: var(--fontColor);
+        border: none;
+        border-radius: 10px;
+        box-shadow: rgba(99, 99 , 99, 0.2) 0px 2px 8px 0px;
+        cursor: pointer;
+        &:hover{
+            background-color: var(--secondaryColor);
+        }
+        .profile-img{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+
+        .profile-name{
+            font-size: 12px;
+        }
+    }
 }
+
